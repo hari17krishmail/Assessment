@@ -1,0 +1,8 @@
+div:where(.swal2-container) div:where(.swal2-popup) {
+  background: #1a1d2e !important;
+}
+div:where(.swal2-container) h2:where(.swal2-title), div:where(.swal2-container) div:where(.swal2-html-container){
+  color: #fff !important;
+}
+
+
