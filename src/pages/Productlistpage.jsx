@@ -47,7 +47,7 @@ const ProductListPage = () => {
       <div className="product-grid">
         {filtered.map((product) => (
           <div key={product.id} className="product-card">
-            <span className="product-badge">⭐ {product.rating}</span>
+            <span className="product-badge">{product.rating}</span>
             <div className="product-imgpos">
               <img
                 src={product.image}
