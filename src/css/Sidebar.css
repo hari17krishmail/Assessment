@@ -30,6 +30,9 @@
     z-index: 99;
     top: 13px;
 }
+.offcanvas-backdrop.show{
+  opacity: 0 !important;
+}
 /* User section */
 .sidebar-user {
   display: flex;
